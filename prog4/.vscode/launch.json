@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "mountainClimber.MountainClimberTester"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MountainClimberTester<prog4>",
+            "request": "launch",
+            "mainClass": "mountainClimber.MountainClimberTester",
+            "projectName": "prog4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MountainMaker<prog4>",
+            "request": "launch",
+            "mainClass": "mountainClimber.MountainMaker",
+            "projectName": "prog4"
+        }
+    ]
+}

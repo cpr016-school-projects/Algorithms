@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DistrictingMaker<prog7>",
+            "request": "launch",
+            "mainClass": "districting.DistrictingMaker",
+            "projectName": "prog7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DistrictingTester<prog7>",
+            "request": "launch",
+            "mainClass": "districting.DistrictingTester",
+            "projectName": "prog7"
+        }
+    ]
+}

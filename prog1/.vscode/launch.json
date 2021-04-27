@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "launch minmaxer",
+            "request": "launch",
+            "mainClass": "minAndMax.MinAndMaxTester",
+            "projectName": "prog1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MinAndMaxTester<prog1>",
+            "request": "launch",
+            "mainClass": "minAndMax.MinAndMaxTester",
+            "projectName": "prog1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BestFitOrder<prog1>",
+            "request": "launch",
+            "mainClass": "scaffold.BestFitOrder",
+            "projectName": "prog1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GradientDescent<prog1>",
+            "request": "launch",
+            "mainClass": "scaffold.GradientDescent",
+            "projectName": "prog1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LinearRegressionNormalEqn<prog1>",
+            "request": "launch",
+            "mainClass": "scaffold.LinearRegressionNormalEqn",
+            "projectName": "prog1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringNumericCmp<prog1>",
+            "request": "launch",
+            "mainClass": "scaffold.StringNumericCmp",
+            "projectName": "prog1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringParser<prog1>",
+            "request": "launch",
+            "mainClass": "scaffold.StringParser",
+            "projectName": "prog1"
+        }
+    ]
+}
