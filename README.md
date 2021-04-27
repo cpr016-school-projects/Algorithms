@@ -13,7 +13,8 @@ I used VSCode and needed to make a few changes to my environment to run the test
 - I added a .classpath entry for both the test jar and scaffold.jar
 
 The goal for each program is to run the test jar file and recieve at least "Good" on every test. "Good" means that the program matches the performance of the professor's accepted solution to the problem. 
----
+
+***
 
 ## Program 1
 #### Source File: MinAndMax.java
@@ -21,11 +22,11 @@ The goal for each program is to run the test jar file and recieve at least "Good
 #### Instructions:
  * You should implement the static method: minAndMax()
  * The input is:
- *   an array of Value objects
- *   
+    * an array of Value objects
+   
  * These objects are comparable using the compareTo() method.
  * Your goal is to find both the minimum and maximum values using at most 1.5 N comparisons.
- * 
+
  * You should return an array of two Value objects the minimum and maximum values.
 #### My Strategy:
 - This program was pretty straightforward. I figured that I could keep it at or under 1.5N comparisons by comparing every two objects in the array to each other, then comparing the greater of the two with the current maximum, and the smaller of the two with the current minimum.
@@ -39,14 +40,12 @@ The goal for each program is to run the test jar file and recieve at least "Good
 #### Instructions:
  * You should implement the static method: findPeak
  * The input is:
- *   a ReadOnlyArrayList<Integer> that only provides .size() and .get(index)
- *   
- * This array is like a mountain profile. The first part of the array rises with every
- * value to a peak value, and then the values decrease with every value until the end.
- * 
- * Your task is to efficiently find the index of the peak value while looking at as few values
- * as possible. 
- * 
+    * a ReadOnlyArrayList<Integer> that only provides .size() and .get(index)
+  
+ * This array is like a mountain profile. The first part of the array rises with every value to a peak value, and then the values decrease with every value until the end.
+  
+ * Your task is to efficiently find the index of the peak value while looking at as few values as possible. 
+  
  * You should return the index of the peak value.
 #### My Strategy:
 - My first thought was that Binary Search would be an easy and efficient solution to this. Like the first program, this was pretty straightforward, but only because I tried implementing Binary Search on my first try. Had I attempted another solution, it probably would have been more difficult. 
@@ -60,12 +59,11 @@ The goal for each program is to run the test jar file and recieve at least "Good
 #### Instructions:
  * You should implement the static method: findRoute
  * The input is:
- *   the number of rows and columns of a 2D array of integer heights
- *   a staring Point where row = start.y and col = start.x
- *   a goal Point
- * 
- * You should return an ArrayList of Points(x = col, y = row) for the least cost path
- * from the start to the goal.
+    * the number of rows and columns of a 2D array of integer heights
+    * a staring Point where row = start.y and col = start.x
+    * a goal Point
+ 
+ * You should return an ArrayList of Points(x = col, y = row) for the least cost path from the start to the goal.
 #### My Strategy:
 - I tried implementing Dijkstra's algorithm. I wanted to implement this because it is a fairly efficient method for finding the least cost path. 
 - I created a Vertex class to handle navigation
@@ -87,16 +85,16 @@ The goal for each program is to run the test jar file and recieve at least "Good
 #### Test Results File: prog5-report.pdf, prog5-test5.pdf
 #### Instructions:
  * You should implement the static methods:
- *
- *   solvePegJump - finds a solution and the number of nodes examined in the search
- *                  it should fill in the jumpList argument with the jumps that form
- *                  your solution
- *
+
+ * solvePegJump 
+    - finds a solution and the number of nodes examined in the search 
+    - it should fill in the jumpList argument with the jumps that form your solution
+
  * The input is a PegJumpPuzzle object, which has:
- *   a size, the number of holes numbered 0 .. size()-1
- *   the startHole that is initially empty
- *   an ArrayList of allowed jumps, which are triples (from, over, dest)
- *   a jump takes the peg 'from' over the peg in 'over' (removing it) and into 'dest'
+    * a size, the number of holes numbered 0 .. size()-1
+    * the startHole that is initially empty
+    * an ArrayList of allowed jumps, which are triples (from, over, dest)
+    * a jump takes the peg 'from' over the peg in 'over' (removing it) and into 'dest'
 #### My Strategy:
 - Inside the PegJump.java, at the top, I include my thought process for trying to implement the algorithm.
 - I knew I needed to implement backtracking, so I used recursion. 
@@ -106,30 +104,27 @@ The goal for each program is to run the test jar file and recieve at least "Good
 - In IDE, click Run then select pegJump.PegJumpTester jar.
 - In VSCode, on Run and Debug screen, select Debug (Launch)-PegJumpPuzzle<prog5> config.
 
-## Program 5
+## Program 7
 #### Source File: Districting.java
 #### Test Results File: prog7-report.pdf, prog7-test5.pdf
 #### Instructions:
  * You should implement the static method: makeDistricts
  * The input is:
- *   the number of rows and columns of
- *   a 2D array of integer populations in each array cell in the populations 
- *   the number of districts desired
- *   
+    * the number of rows and columns of
+    * a 2D array of integer populations in each array cell in the populations 
+    * the number of districts desired
+  
  * Your task is to break it up into districts that are:
- *   contiguous - (all cells in a region are connected by shared edges)
- *   close to equal in population
- *      
+    * contiguous - (all cells in a region are connected by shared edges)
+    * close to equal in population
+     
  * You should return a 2D array of the district numbers for each cell. 
  * District number should start at 1.
- * 
- * Note: this assignment can be animated. If you would like to watch your algorithm
- * as it works, you can inserts calls to:
- *          DistrictingTester.show(districts);
- * at any points in your program where it would be useful to see the current state of
- * the districts array. Read more detailed instructions using the [About] button in the
- * scaffold.
- * 
+ 
+ * Note: this assignment can be animated. If you would like to watch your algorithm as it works, you can inserts calls to:
+    * DistrictingTester.show(districts);
+    * at any points in your program where it would be useful to see the current state of the districts array. Read more detailed instructions using the [About] button in the scaffold.
+ 
  * The starting code contains example animations calls.
 #### My Strategy:
 - This was a complicated problem that I probably had a complicated and unique solution to. I worked on this with a team member, but took a leading role in the algorithm's design and implementation.
