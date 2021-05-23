@@ -1,5 +1,25 @@
 ## Navigation
-***
+
+##### Design of Computing Algorithms - COS 485
+Link: https://github.com/cpr016-school-projects/Algorithms
+
+##### Capstone - Object Oriented Design and Programming - COS 420
+Link: https://github.com/cpr016-school-projects/Capstone
+
+##### Mobile Application Development - COS 470
+Link: https://github.com/cpr016-school-projects/Mobile-App-Development
+
+##### Computer Graphics - COS 452
+Link: https://github.com/cpr016-school-projects/Computer-Graphics
+
+##### Database Systems - COS 457
+Link: https://github.com/cpr016-school-projects/Database-Systems
+
+##### Graphical User Interface Design - COS 368
+Link: https://github.com/cpr016-school-projects/GUI-Design
+
+---
+
 # Design of Computing Algorithms - COS 485
 An introduction to the design and analysis of algorithms. This course develops useful algorithm design techniques such as divide-and-conquer, dynamic programming, the greedy method, searching, iterative improvement, and randomized algorithms. We will study important problems such as sorting, searching, minimum spanning tree, single source shortest path, traveling salesperson, graph search and others. This course develops mathematical techniques for analyzing and comparing the execution times of algorithms and for finding lower bounds on the best possible algorithms.
 
